@@ -1,0 +1,62 @@
+@import url('https://rsms.me/inter/inter.css');
+
+html { 
+	font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+}
+
+.container {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+/* Redesign link our way */
+a {
+    text-decoration: none;
+    color: #8ab4f8;
+}
+
+.link-icons {
+    color: #b3b3b3;
+}
+
+/* Button Styles */
+.btn_solid-main {
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    color: #000000;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Form Style */
+.centerize {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-section {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.form-input-underline {
+    background-color: transparent;
+    border: none;
+    width: 75%;
+    height: 4vh;
+    border-bottom: 2px solid #bdbdbd;
+    color: white;
+}
+
+.form-input-underline:focus {
+    border-bottom: 2px solid #8ab4f8;
+    color: white;
+}
